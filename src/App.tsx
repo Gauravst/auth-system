@@ -1,9 +1,9 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Home from "@/pages/home";
-import Dashboard from "@/pages/dashboard";
-import Signup from "@/pages/signup";
-import Login from "@/pages/login";
-import ForgotPassword from "@/pages/forgotPassword";
+import Home from "./pages/home";
+import Dashboard from "./pages/dashboard";
+import Signup from "./pages/signup";
+import Login from "./pages/login";
+import ForgotPassword from "./pages/forgotPassword";
 
 const App = () => {
   return (
